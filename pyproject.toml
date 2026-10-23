@@ -1,0 +1,17 @@
+[project]
+name = "workload"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=1.2.0",
+    "django>=5.2.17",
+    "django-cors-headers>=4.9.0",
+    "djangorestframework>=3.18.0",
+    "drf-spectacular>=0.30.0",
+    "google-genai>=2.30.1",
+    "mcp<2",
+    "openai>=3.31.0",
+    "psycopg[binary]>=3.3.5",
+]
